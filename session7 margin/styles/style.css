@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.box1 {
+    height: 100px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.box2 {
+    height: 100px;
+    background-color: blue;
+    margin: 50px;
+}
+
+.box3 {
+    height: 100px;
+    background-color: green;
+    margin: 50px 20px;
+}
+
+.box4 {
+    height: 100px;
+    background-color: yellow;
+    margin: 50px 20px 10px;
+}
+
+.box5 {
+    height: 100px;
+    background-color: purple;
+    margin: 50px 20px 10px 30px;
+}
