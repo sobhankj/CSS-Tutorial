@@ -1,0 +1,29 @@
+/* element selector */
+h1 {
+    color: red;
+}
+
+/* ID selector */
+#first {
+    color: blue;
+}
+
+/* class selector */
+.second {
+    color: green;
+}
+
+/* all element */
+* {
+    font-size: 20px;
+}
+
+/* grouping */
+.second , #fourth {
+    font-size: 30px;
+}
+
+/* child selector */
+span.first {
+    color: purple;
+}
