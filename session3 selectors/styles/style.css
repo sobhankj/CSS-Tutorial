@@ -27,3 +27,23 @@ h1 {
 span.first {
     color: purple;
 }
+
+/* element element */
+.parent .child {
+    color: orange;
+}
+
+/* element > element */
+.parent2 > .child {
+    border: 1px solid black;
+}
+
+/* elemetn + element */
+.title + .description {
+    border: 1px solid black;
+}
+
+/* element ~ element */
+.title2 ~ .description2 {
+    border: 1px solid black;
+}
