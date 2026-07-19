@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    padding: 20px;
+    margin: 40px 0 0 50px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.box h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box h2 {
+    text-align: center;
+    text-decoration: line-through;
+}
+.box a {
+    text-decoration: none;
+}
+
+.box p {
+    text-transform: uppercase;
+}
