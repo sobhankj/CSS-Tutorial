@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    padding: 20px;
+    margin: 40px 0 0 50px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.box h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.box p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.4;
+    white-space: wrap;
+}
