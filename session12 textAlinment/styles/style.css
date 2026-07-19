@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    padding: 20px;
+    margin: 40px 0 0 50px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.box p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.box .input {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    direction: ltr; 
+}
