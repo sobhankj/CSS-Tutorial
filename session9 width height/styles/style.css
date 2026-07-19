@@ -35,3 +35,13 @@ span {
     height: 50vh;
     background-color: #ff44da;
 }
+
+.boxParent3 {
+    width: 70vw;
+    height: 90vh;
+    max-width: 800px;
+    max-height: 200px;
+    min-width: 500px;
+    min-height: 100px;
+    background-color: #4444ff;
+}
