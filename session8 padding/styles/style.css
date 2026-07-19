@@ -1,0 +1,16 @@
+body{
+    margin:0;
+}
+
+.box1 {
+    background-color: #a10bff;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box2 {
+    background-color: #00600a;
+    color: #fff;
+    padding: 20px 40px;
+}
