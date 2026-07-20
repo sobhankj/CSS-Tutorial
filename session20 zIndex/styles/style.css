@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.parent {
+    background-color: #860000;
+    height: 200px;
+    color: white;
+    position: relative;
+}
+
+.child1 {
+    background-color: #008600;
+    height: 40%;
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    z-index: 2;
+}
+
+.child2 {
+    background-color: #000086;
+    height: 50%;
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 40%;
+    text-align: end;
+}
