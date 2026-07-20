@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: 30px;
+}
+
+a {
+    color: #fea2a2;
+    text-decoration: none;
+}
+
+.linkInline {
+    display: inline;
+}
+
+.linkBlock {
+    display: block;
+    text-align: center;
+}
+
+.linkInlineBlock {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.linkNone {
+    display: none;
+}
+
+.linkInvisible {
+    visibility: hidden;
+}
+
+.linkOpacity {
+    opacity: 0;
+}
