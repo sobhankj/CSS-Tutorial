@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 30px 0 30px 50px;
+}
+
+.btn:hover {
+    background-color: azure;
+    border: 1px solid #ff0000;
+}
+
+.btn:active {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #00ff48;
+}
+
+a {
+    display: inline-block;
+    margin: 30px 0 30px 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #00ff48;
+}
+
+input {
+    display: block;
+    margin: 30px 0 30px 50px;
+}
+
+input:focus {
+    width: 500px;
+    padding: 10px;
+}
