@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #cb6f6f;
+    height: 200px;
+    width: 300px;
+    margin: 30px auto;
+    color: rgb(69, 31, 31);
+}
+
+.box1 {
+    overflow: hidden;
+}
+
+.box2 {
+    overflow: auto;
+}
+
+.box3 {
+    overflow: scroll;
+}
+
+.box4 {
+    overflow: visible;
+}
