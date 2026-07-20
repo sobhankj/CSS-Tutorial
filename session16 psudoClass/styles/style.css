@@ -34,12 +34,53 @@ a:visited {
     color: #00ff48;
 }
 
-input {
+textinput {
     display: block;
     margin: 30px 0 30px 50px;
 }
 
-input:focus {
+textinput:focus {
     width: 500px;
     padding: 10px;
+}
+
+.checkbox {
+    display: block;
+    margin: 30px 0 10px 50px;
+}
+
+.alertCheckbox {
+    display: none;
+    margin: 0px 0 30px 50px;
+    color: #000000;
+}
+
+.checkbox:checked + .alertCheckbox {
+    display: block;
+    color: #000000;
+}
+
+
+.list .item:first-child{
+    background-color: #000000;
+    color: #fff;
+}
+
+.list .item:last-child{
+    background-color: #ff0000;
+}
+
+.list .item:nth-child(3){
+    background-color: #00ff48;
+}
+
+.list .item:not(.notActive){
+    background-color: #0071a5;
+    color: #fff;
+}
+
+div:empty {
+    background-color: #ff0000;
+    height: 100px;
+    width: 100px;
 }
