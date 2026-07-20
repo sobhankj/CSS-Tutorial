@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+[name="username"] {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+[name="password"] {
+    background-color: #00ff00;
+    color: #fff;
+}
+
+[placeholder] {
+    border: 1px solid #d400ff;
+    color: #fff;
+}
+
+[type^="nu"] {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+[type$="te"] {
+    background-color: #00a6ff;
+    color: #fff;
+}
