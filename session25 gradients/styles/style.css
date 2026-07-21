@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #0000ff99, #ff0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-item {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, #4a4aff, #ffb0d2);
+    border-radius: 50%;
+}
