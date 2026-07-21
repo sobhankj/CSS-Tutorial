@@ -1,0 +1,35 @@
+:root {
+    --primary-color: rgb(205, 29, 29);
+    --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
